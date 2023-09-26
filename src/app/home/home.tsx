@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import Image from "next/image"
@@ -12,20 +10,20 @@ export default function About() {
 			<div className="flex-col items-center ml-28 max-w-2xl font-sans-serif">
 				<h1 className="text-5xl font-bold text-gray-700 p-1">FULLSTACK WEB DEVELOPER</h1>
 				<span>
-					<p className="mt-6 text-lg font-medium max-w-prose text-zinc-400">Hi! I'm Lee Michael Maneclang a programmer based in the philippines. I have a strong interest in software engineering, cloud computing and web applications development. I am focusing on backend development, but I also do have experience with frontend development.
+					<p className="mt-6 text-lg font-medium max-w-prose text-zinc-400">Hi! I am Lee Michael Maneclang a programmer based in the philippines. I have a strong interest in software engineering, cloud computing and web applications development. I am focusing on backend development, but I also do have experience with frontend development.
 					</p>
 				</span>
 				<div className="flex flex-col mt-7">
 					<h2 className="text-xl font-semibold">Let us be connected!</h2>
 					<div className="flex flex-row gap-3 mt-4">
 						<a href="www.linkedin.com/in/leemaneclang">
-							<img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
+							<Image width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
 						</a>
 						<a href="https://github.com/leemnclng">
-							<img width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github" />
+							<Image width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github" />
 						</a>
 						<a href="">
-							<img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-circled.png" alt="facebook-circled" />
+							<Image width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-circled.png" alt="facebook-circled" />
 						</a>
 					</div>
 				</div>

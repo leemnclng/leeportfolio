@@ -49,7 +49,7 @@ export default function ExperienceItemComponent({
         <div className='mb-10 mt-4 text-sm font-light text-zinc-600'>
           {content.map((data, index) => {
             return (
-              <ul className='list-disc list-inside'>
+              <ul className='list-disc list-inside' key={index}>
                 <li className='text-left' key={index}>{data}</li>
               </ul>
             )

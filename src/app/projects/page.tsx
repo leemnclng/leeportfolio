@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image"
 
 export default function Projects() {
   return (
@@ -9,19 +10,19 @@ export default function Projects() {
             <div className="absolute">
               <div className="">
                 <h1 className="my-2 text-gray-800 font-bold text-2xl">
-                  Looks like you've found the
+                  Looks like you have found the
                   doorway to the great nothing
                 </h1>
                 <p className="my-2 text-gray-800">Sorry about that! This page is currently in development.</p>
               </div>
             </div>
             <div>
-              <img src="https://i.ibb.co/G9DC8S0/404-2.png" />
+              <Image alt='bg-image' src="https://i.ibb.co/G9DC8S0/404-2.png" />
             </div>
           </div>
         </div>
         <div>
-          <img src="https://i.ibb.co/ck1SGFJ/Group.png" />
+          <Image alt='bg-image' src="https://i.ibb.co/ck1SGFJ/Group.png" />
         </div>
       </div>
     </div>

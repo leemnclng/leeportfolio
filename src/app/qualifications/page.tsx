@@ -20,7 +20,6 @@ export default function Qualifications() {
 					content={[
 						`Currently working on an internal project that involves developing a web-based system to be utilized by their employees, aiming to
 						enhance productivity.`,
-						'aldjakhsdfhasd'
 					]}
 					firstChild={true}
 				/>
