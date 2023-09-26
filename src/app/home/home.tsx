@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 'use client';
 
@@ -15,7 +16,7 @@ export default function About() {
 					</p>
 				</span>
 				<div className="flex flex-col mt-7">
-					<h2 className="text-xl font-semibold">Let's be connected!</h2>
+					<h2 className="text-xl font-semibold">Let us be connected!</h2>
 					<div className="flex flex-row gap-3 mt-4">
 						<a href="www.linkedin.com/in/leemaneclang">
 							<img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
